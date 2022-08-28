@@ -1,0 +1,6 @@
+clear
+cd SC
+g++ main.cpp -o ../out -I/usr/include/python3.9 -lpython3.9 || { exit; }
+cd ..
+./out
+python3.9 plot.py

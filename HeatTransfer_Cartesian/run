@@ -1,0 +1,6 @@
+#!/bin/bash
+#rm PlotData/mesh*
+cd SC
+g++ main.cpp -o ../out -O3 -Wall || { exit; }
+cd ..
+./out
